@@ -21,3 +21,8 @@
 - curl https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-arm64.sh -o ~/miniconda3/miniconda.sh
 - bash ~/miniconda3/miniconda.sh -b -u -p ~/miniconda3
 - rm ~/miniconda3/miniconda.sh
+
+### After installing, close and reopen your terminal application or refresh it by running the following command:
+- source ~/miniconda3/bin/activate
+### To initialize conda on all available shells, run the following command:
+- conda init --all
